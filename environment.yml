@@ -1,0 +1,14 @@
+name: allensdk
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - python=3.7
+  - jupyter
+  - pip
+  - pandas
+  - matplotlib
+  - numpy
+  - pip:
+    - allensdk
